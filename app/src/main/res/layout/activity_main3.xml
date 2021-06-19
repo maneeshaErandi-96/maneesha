@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="60dp"
+                    android:text="HSCODE"
+                    android:textColor="#231e23"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:id="@+id/viewcode"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:hint="enter hsCode"
+                    android:padding="6dp"
+                    android:textColor="#231e23"
+                    android:textColorHint="#BCAFAF"
+                    android:textSize="14sp" />
+
+
+                <Button
+                    android:id="@+id/search_bt"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/ic_search"
+                    app:backgroundTint="@color/black" />
+
+            </LinearLayout>
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="20dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="110dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="60dp"
+                                android:text="PAL"
+                                android:textColor="#231e23"
+                                android:textColorHint="#FFFFFF"
+                                android:textSize="14sp" />
+
+                            <EditText
+                                android:id="@+id/viewpal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:editable="true"
+                                android:padding="6dp"
+                                android:textColor="#231e23"
+                                android:textColorHint="#BCAFAF"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="20dp"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="110dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="60dp"
+                                    android:text="VAT"
+                                    android:textColor="#231e23"
+                                    android:textColorHint="#FFFFFF"
+                                    android:textSize="14sp" />
+
+                                <EditText
+                                    android:id="@+id/viewvat"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:editable="true"
+                                    android:padding="6dp"
+                                    android:textColor="#231e23"
+                                    android:textColorHint="#BCAFAF"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="20dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="110dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="60dp"
+                                        android:text="RIDL"
+                                        android:textColor="#231e23"
+                                        android:textColorHint="#FFFFFF"
+                                        android:textSize="14sp" />
+
+                                    <EditText
+                                        android:id="@+id/viewridl"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:editable="true"
+                                        android:padding="6dp"
+                                        android:textColor="#231e23"
+                                        android:textColorHint="#BCAFAF"
+                                        android:textSize="14sp" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="20dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="110dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginRight="60dp"
+                                            android:text="SRL"
+                                            android:textColor="#231e23"
+                                            android:textColorHint="#FFFFFF"
+                                            android:textSize="14sp" />
+
+                                        <EditText
+                                            android:id="@+id/viewsrl"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:editable="true"
+                                            android:padding="6dp"
+                                            android:textColor="#231e23"
+                                            android:textColorHint="#BCAFAF"
+                                            android:textSize="14sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginBottom="20dp"
+                                            android:orientation="horizontal">
+
+                                            <TextView
+                                                android:layout_width="110dp"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginRight="60dp"
+                                                android:text="NBT"
+                                                android:textColor="#231e23"
+                                                android:textColorHint="#FFFFFF"
+                                                android:textSize="14sp" />
+
+                                            <EditText
+                                                android:id="@+id/viewnbt"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:editable="true"
+                                                android:padding="6dp"
+                                                android:textColor="#231e23"
+                                                android:textColorHint="#BCAFAF"
+                                                android:textSize="14sp" />
+                                        </LinearLayout>
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:orientation="vertical">
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginBottom="20dp"
+                                                android:orientation="horizontal">
+
+                                                <TextView
+                                                    android:layout_width="110dp"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginRight="60dp"
+                                                    android:text="SURCHARGE"
+                                                    android:textColor="#231e23"
+                                                    android:textColorHint="#FFFFFF"
+                                                    android:textSize="14sp" />
+
+                                                <EditText
+                                                    android:id="@+id/viewsurcharge"
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:editable="true"
+                                                    android:padding="6dp"
+                                                    android:textColor="#231e23"
+                                                    android:textColorHint="#BCAFAF"
+                                                    android:textSize="14sp" />
+                                            </LinearLayout>
+
+                                            <LinearLayout
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:orientation="vertical">
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:layout_marginBottom="20dp"
+                                                    android:orientation="horizontal">
+
+                                                    <TextView
+                                                        android:layout_width="110dp"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_marginRight="60dp"
+                                                        android:text="CESS LEVY"
+                                                        android:textColor="#231e23"
+                                                        android:textColorHint="#FFFFFF"
+                                                        android:textSize="14sp" />
+
+                                                    <EditText
+                                                        android:id="@+id/viewcess"
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:editable="true"
+                                                        android:padding="6dp"
+                                                        android:textColor="#231e23"
+                                                        android:textColorHint="#BCAFAF"
+                                                        android:textSize="14sp" />
+                                                </LinearLayout>
+
+                                                <LinearLayout
+                                                    android:layout_width="match_parent"
+                                                    android:layout_height="wrap_content"
+                                                    android:orientation="vertical">
+
+                                                    <LinearLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:layout_marginBottom="20dp"
+                                                        android:orientation="horizontal">
+
+                                                        <TextView
+                                                            android:layout_width="110dp"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_marginRight="60dp"
+                                                            android:text="CUSTOMS DUTY"
+                                                            android:textColor="#231e23"
+                                                            android:textColorHint="#FFFFFF"
+                                                            android:textSize="14sp" />
+
+                                                        <EditText
+                                                            android:id="@+id/viewcustoms"
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:editable="true"
+                                                            android:padding="6dp"
+                                                            android:textColor="#231e23"
+                                                            android:textColorHint="#BCAFAF"
+                                                            android:textSize="14sp" />
+                                                    </LinearLayout>
+
+                                                    <LinearLayout
+                                                        android:layout_width="match_parent"
+                                                        android:layout_height="wrap_content"
+                                                        android:orientation="vertical">
+
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:layout_marginBottom="20dp"
+                                                            android:orientation="horizontal">
+
+                                                            <TextView
+                                                                android:layout_width="110dp"
+                                                                android:layout_height="wrap_content"
+                                                                android:layout_marginRight="60dp"
+                                                                android:text="EXCIS DUTY"
+                                                                android:textColor="#231e23"
+                                                                android:textColorHint="#FFFFFF"
+                                                                android:textSize="14sp" />
+
+                                                            <EditText
+                                                                android:id="@+id/viewexcis"
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+
+                                                                android:editable="true"
+                                                                android:padding="6dp"
+                                                                android:textColor="#231e23"
+                                                                android:textColorHint="#BCAFAF"
+                                                                android:textSize="14sp" />
+                                                        </LinearLayout>
+
+                                                        <LinearLayout
+                                                            android:layout_width="match_parent"
+                                                            android:layout_height="wrap_content"
+                                                            android:orientation="vertical">
+
+                                                            <LinearLayout
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:layout_marginBottom="20dp"
+                                                                android:orientation="horizontal">
+
+                                                                <TextView
+                                                                    android:layout_width="110dp"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:layout_marginRight="60dp"
+                                                                    android:text="CIF"
+                                                                    android:textColor="#231e23"
+                                                                    android:textColorHint="#FFFFFF"
+                                                                    android:textSize="14sp" />
+
+                                                                <EditText
+                                                                    android:id="@+id/viewcif"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:layout_marginBottom="60dp"
+                                                                    android:editable="true"
+                                                                    android:hint="enter  cif Value"
+                                                                    android:padding="6dp"
+                                                                    android:textColor="#231e23"
+                                                                    android:textColorHint="#BCAFAF"
+                                                                    android:textSize="14sp" />
+                                                            </LinearLayout>
+
+                                                            <LinearLayout
+                                                                android:layout_width="match_parent"
+                                                                android:layout_height="wrap_content"
+                                                                android:orientation="vertical">
+
+                                                                <LinearLayout
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:layout_marginBottom="20dp"
+                                                                    android:orientation="horizontal">
+
+
+                                                                <TextView
+                                                                    android:id="@+id/txt_result"
+                                                                    android:layout_width="300dp"
+                                                                    android:layout_height="80dp"
+                                                                    android:layout_marginBottom="60dp"
+                                                                    android:layout_gravity="center"
+                                                                    android:hint="Result is:"
+                                                                    android:textSize="30sp"
+                                                                    android:textColor="@color/red"/>
+
+                                                                </LinearLayout>
+
+
+
+                                                            <LinearLayout
+
+                                                            android:layout_width="match_parent"
+
+                                                            android:layout_height="wrap_content"
+                                                            android:background="@android:drawable/bottom_bar"
+                                                            android:gravity="center_vertical">
+
+
+
+                                                                <Button
+                                                                    android:id="@+id/cal"
+                                                                    android:layout_width="0dp"
+                                                                    android:layout_height="wrap_content"
+                                                                    android:layout_marginRight="5dp"
+                                                                    android:layout_weight="1"
+                                                                    android:background="@drawable/round_border"
+                                                                    android:onClick="onClickCal"
+                                                                    android:text="Calculate"
+                                                                    android:textColor="@color/black"
+                                                                    android:textStyle="bold"
+                                                                    app:backgroundTint="@color/teal_200" />
+
+
+
+                                                        </LinearLayout>
+
+                                                            </LinearLayout>
+
+                                                    </LinearLayout>
+                                                </LinearLayout>
+                                            </LinearLayout>
+                                            </LinearLayout>
+                                        </LinearLayout>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+</ScrollView>
