@@ -8,7 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#a5ecd7"
+        android:background="#79A9F5"
         android:orientation="vertical">
 
         <TextView
@@ -16,8 +16,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="ADDING DETAILS"
-            android:textColor="@color/purple_500"
-            android:textSize="30sp" />
+            android:textColor="#000C66"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -29,21 +30,22 @@
             <TextView
                 android:layout_width="110dp"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="60dp"
+                android:layout_marginEnd="65dp"
+                android:layout_marginRight="65dp"
                 android:text=" ID"
-
                 android:textColor="#231e23"
                 android:textColorHint="#FFFFFF"
-                android:textSize="14sp" />
+                android:textSize="18sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/viewid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="enter id"
+                android:hint="Enter id"
                 android:padding="6dp"
                 android:textColor="#231e23"
-                android:textColorHint="#BCAFAF"
+                android:textColorHint="#050A30"
                 android:textSize="14sp" />
         </LinearLayout>
 
@@ -61,21 +63,23 @@
                 <TextView
                     android:layout_width="110dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="60dp"
-                    android:text="HSCODE"
+                    android:layout_marginEnd="65dp"
+                    android:layout_marginRight="65dp"
 
+                    android:text="HSCODE"
                     android:textColor="#231e23"
                     android:textColorHint="#FFFFFF"
-                    android:textSize="14sp" />
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/view1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="enter hsCode"
+                    android:hint="Enter hsCode"
                     android:padding="6dp"
                     android:textColor="#231e23"
-                    android:textColorHint="#BCAFAF"
+                    android:textColorHint="#050A30"
                     android:textSize="14sp" />
             </LinearLayout>
 
@@ -92,22 +96,23 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:layout_width="110dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginRight="60dp"
+                        android:layout_marginRight="41dp"
                         android:text="HSDESCRIPTION"
                         android:textColor="#231e23"
                         android:textColorHint="#FFFFFF"
-                        android:textSize="14sp" />
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <EditText
                         android:id="@+id/view2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="enter hsDescription"
+                        android:hint="Enter hsDescription"
                         android:padding="6dp"
                         android:textColor="#231e23"
-                        android:textColorHint="#BCAFAF"
+                        android:textColorHint="#050A30"
                         android:textSize="14sp" />
                 </LinearLayout>
 
@@ -126,20 +131,22 @@
                         <TextView
                             android:layout_width="110dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginRight="60dp"
+                            android:layout_marginEnd="65dp"
+                            android:layout_marginRight="65dp"
                             android:text="UNIT"
                             android:textColor="#231e23"
                             android:textColorHint="#FFFFFF"
-                            android:textSize="14sp" />
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
 
                         <EditText
                             android:id="@+id/view3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="enter unit"
+                            android:hint="Enter unit"
                             android:padding="6dp"
                             android:textColor="#231e23"
-                            android:textColorHint="#BCAFAF"
+                            android:textColorHint="#050A30"
                             android:textSize="14sp" />
                     </LinearLayout>
 
@@ -157,20 +164,22 @@
                             <TextView
                                 android:layout_width="110dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginRight="60dp"
+                                android:layout_marginEnd="65dp"
+                                android:layout_marginRight="65dp"
                                 android:text="PAL"
                                 android:textColor="#231e23"
                                 android:textColorHint="#FFFFFF"
-                                android:textSize="14sp" />
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
 
                             <EditText
                                 android:id="@+id/view4"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:hint="enter pal"
+                                android:hint="Enter pal"
                                 android:padding="6dp"
                                 android:textColor="#231e23"
-                                android:textColorHint="#BCAFAF"
+                                android:textColorHint="#050A30"
                                 android:textSize="14sp" />
                         </LinearLayout>
 
@@ -188,20 +197,22 @@
                                 <TextView
                                     android:layout_width="110dp"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginRight="60dp"
+                                    android:layout_marginEnd="65dp"
+                                    android:layout_marginRight="65dp"
                                     android:text="VAT"
                                     android:textColor="#231e23"
                                     android:textColorHint="#FFFFFF"
-                                    android:textSize="14sp" />
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
 
                                 <EditText
                                     android:id="@+id/view5"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:hint="enter Vat"
+                                    android:hint="Enter Vat"
                                     android:padding="6dp"
                                     android:textColor="#231e23"
-                                    android:textColorHint="#BCAFAF"
+                                    android:textColorHint="#050A30"
                                     android:textSize="14sp" />
                             </LinearLayout>
 
@@ -219,20 +230,22 @@
                                     <TextView
                                         android:layout_width="110dp"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginRight="60dp"
+                                        android:layout_marginEnd="65dp"
+                                        android:layout_marginRight="65dp"
                                         android:text="RIDL"
                                         android:textColor="#231e23"
                                         android:textColorHint="#FFFFFF"
-                                        android:textSize="14sp" />
+                                        android:textSize="18sp"
+                                        android:textStyle="bold" />
 
                                     <EditText
                                         android:id="@+id/view6"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:hint="enter Ridl"
+                                        android:hint="Enter Ridl"
                                         android:padding="6dp"
                                         android:textColor="#231e23"
-                                        android:textColorHint="#BCAFAF"
+                                        android:textColorHint="#050A30"
                                         android:textSize="14sp" />
                                 </LinearLayout>
 
@@ -250,20 +263,22 @@
                                         <TextView
                                             android:layout_width="110dp"
                                             android:layout_height="wrap_content"
-                                            android:layout_marginRight="60dp"
+                                            android:layout_marginEnd="65dp"
+                                            android:layout_marginRight="65dp"
                                             android:text="SRL"
                                             android:textColor="#231e23"
                                             android:textColorHint="#FFFFFF"
-                                            android:textSize="14sp" />
+                                            android:textSize="18sp"
+                                            android:textStyle="bold" />
 
                                         <EditText
                                             android:id="@+id/view7"
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:hint="enter srl"
+                                            android:hint="Enter srl"
                                             android:padding="6dp"
                                             android:textColor="#231e23"
-                                            android:textColorHint="#BCAFAF"
+                                            android:textColorHint="#050A30"
                                             android:textSize="14sp" />
                                     </LinearLayout>
 
@@ -281,20 +296,22 @@
                                             <TextView
                                                 android:layout_width="110dp"
                                                 android:layout_height="wrap_content"
-                                                android:layout_marginRight="60dp"
+                                                android:layout_marginEnd="65dp"
+                                                android:layout_marginRight="65dp"
                                                 android:text="NBT"
                                                 android:textColor="#231e23"
                                                 android:textColorHint="#FFFFFF"
-                                                android:textSize="14sp" />
+                                                android:textSize="18sp"
+                                                android:textStyle="bold" />
 
                                             <EditText
                                                 android:id="@+id/view8"
                                                 android:layout_width="match_parent"
                                                 android:layout_height="wrap_content"
-                                                android:hint="enter nbt"
+                                                android:hint="Enter nbt"
                                                 android:padding="6dp"
                                                 android:textColor="#231e23"
-                                                android:textColorHint="#BCAFAF"
+                                                android:textColorHint="#050A30"
                                                 android:textSize="14sp" />
                                         </LinearLayout>
 
@@ -312,20 +329,22 @@
                                                 <TextView
                                                     android:layout_width="110dp"
                                                     android:layout_height="wrap_content"
-                                                    android:layout_marginRight="60dp"
+                                                    android:layout_marginEnd="65dp"
+                                                    android:layout_marginRight="65dp"
                                                     android:text="SURCHARGE"
                                                     android:textColor="#231e23"
                                                     android:textColorHint="#FFFFFF"
-                                                    android:textSize="14sp" />
+                                                    android:textSize="18sp"
+                                                    android:textStyle="bold" />
 
                                                 <EditText
                                                     android:id="@+id/view9"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="wrap_content"
-                                                    android:hint="enter surcharge"
+                                                    android:hint="Enter surcharge"
                                                     android:padding="6dp"
                                                     android:textColor="#231e23"
-                                                    android:textColorHint="#BCAFAF"
+                                                    android:textColorHint="#050A30"
                                                     android:textSize="14sp" />
                                             </LinearLayout>
 
@@ -343,20 +362,22 @@
                                                     <TextView
                                                         android:layout_width="110dp"
                                                         android:layout_height="wrap_content"
-                                                        android:layout_marginRight="60dp"
+                                                        android:layout_marginEnd="65dp"
+                                                        android:layout_marginRight="65dp"
                                                         android:text="CESS LEVY"
                                                         android:textColor="#231e23"
                                                         android:textColorHint="#FFFFFF"
-                                                        android:textSize="14sp" />
+                                                        android:textSize="18sp"
+                                                        android:textStyle="bold" />
 
                                                     <EditText
                                                         android:id="@+id/view10"
                                                         android:layout_width="match_parent"
                                                         android:layout_height="wrap_content"
-                                                        android:hint="enter cess levy"
+                                                        android:hint="Enter cess levy"
                                                         android:padding="6dp"
                                                         android:textColor="#231e23"
-                                                        android:textColorHint="#BCAFAF"
+                                                        android:textColorHint="#050A30"
                                                         android:textSize="14sp" />
                                                 </LinearLayout>
 
@@ -374,20 +395,22 @@
                                                         <TextView
                                                             android:layout_width="110dp"
                                                             android:layout_height="wrap_content"
-                                                            android:layout_marginRight="60dp"
+                                                            android:layout_marginEnd="65dp"
+                                                            android:layout_marginRight="65dp"
                                                             android:text="CUSTOMS DUTY"
                                                             android:textColor="#231e23"
                                                             android:textColorHint="#FFFFFF"
-                                                            android:textSize="14sp" />
+                                                            android:textSize="18sp"
+                                                            android:textStyle="bold" />
 
                                                         <EditText
                                                             android:id="@+id/view11"
                                                             android:layout_width="match_parent"
                                                             android:layout_height="wrap_content"
-                                                            android:hint="enter customs duty"
+                                                            android:hint="Enter customs duty"
                                                             android:padding="6dp"
                                                             android:textColor="#231e23"
-                                                            android:textColorHint="#BCAFAF"
+                                                            android:textColorHint="#050A30"
                                                             android:textSize="14sp" />
                                                     </LinearLayout>
 
@@ -405,21 +428,23 @@
                                                             <TextView
                                                                 android:layout_width="110dp"
                                                                 android:layout_height="wrap_content"
-                                                                android:layout_marginRight="60dp"
+                                                                android:layout_marginEnd="65dp"
+                                                                android:layout_marginRight="65dp"
                                                                 android:text="EXCIS DUTY"
                                                                 android:textColor="#231e23"
                                                                 android:textColorHint="#FFFFFF"
-                                                                android:textSize="14sp" />
+                                                                android:textSize="18sp"
+                                                                android:textStyle="bold" />
 
                                                             <EditText
                                                                 android:id="@+id/view12"
                                                                 android:layout_width="match_parent"
                                                                 android:layout_height="wrap_content"
                                                                 android:layout_marginBottom="60dp"
-                                                                android:hint="enter excis duty"
+                                                                android:hint="Enter excis duty"
                                                                 android:padding="6dp"
                                                                 android:textColor="#231e23"
-                                                                android:textColorHint="#BCAFAF"
+                                                                android:textColorHint="#050A30"
                                                                 android:textSize="14sp" />
                                                         </LinearLayout>
 

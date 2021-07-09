@@ -53,4 +53,10 @@ public class MainActivity extends AppCompatActivity {
         Intent inte=new Intent(MainActivity.this,MainActivity6.class);
         startActivity(inte);
     }
+
+    public void OnClickTarrif(View view) {
+        Intent tarrif=new Intent(MainActivity.this,MainActivity3.class);
+        startActivity(tarrif);
+
+    }
 }

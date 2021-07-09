@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
-    app:cardElevation="4dp"
-    tools:context=".MainActivity5">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
 
 
 
@@ -14,40 +11,102 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:orientation="horizontal">
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="580dp"
-            android:layout_weight="9"
-            android:orientation="vertical">
-
-            <TextView
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="30dp"
                 android:text="HS DETAILS"
-                android:textColor="@color/purple_500"
+                android:textColor="#000C66"
                 android:textIsSelectable="false"
-                android:textSize="24sp"
+                android:textSize="30sp"
                 android:textStyle="bold" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
 
             <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="65dp"
+                android:layout_marginRight="65dp"
+                android:text=" Hs Description"
+                android:textColor="#231e23"
+                android:textColorHint="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        <TextView
                 android:id="@+id/des"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical|start"
+                android:textAllCaps="true"
+                android:textColor="#231e23"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:text=" HSCode"
+        android:textColor="#231e23"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/hsc"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="description"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:text=" Unit"
+        android:textColor="#231e23"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/un"
@@ -56,11 +115,33 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="uni"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:text=" Vat %"
+            android:textColor="#231e23"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/va"
@@ -69,11 +150,34 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="vat"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+
+         <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:text=" Customs Duty %"
+            android:textColor="#231e23"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/customs"
@@ -82,11 +186,34 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="Customs duty"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+
+         <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:text=" SurCharge %"
+            android:textColor="#231e23"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/sur"
@@ -95,11 +222,34 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="Surcharge"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+
+         <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:text=" Cess Levy %"
+            android:textColor="#231e23"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/ces"
@@ -108,11 +258,34 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="Cess Levy"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+
+         <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:text=" Excise Duty %"
+            android:textColor="#231e23"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/ex"
@@ -121,11 +294,34 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="Excise Duty"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+
+         <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:text=" RIDL %"
+            android:textColor="#231e23"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/RIDL"
@@ -134,11 +330,33 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="RIDL"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+         <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:text=" SRL %"
+            android:textColor="#231e23"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/SRL"
@@ -147,11 +365,35 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="SRL"
+
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+
+         <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:text=" NBT %"
+            android:textColor="#231e23"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
 
             <TextView
                 android:id="@+id/NBT"
@@ -160,11 +402,34 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginBottom="15dp"
                 android:gravity="center_vertical|start"
-                android:text="NBT"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+    </LinearLayout>
+         <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="65dp"
+            android:layout_marginRight="65dp"
+            android:text=" Pal %"
+            android:textColor="#231e23"
+            android:textColorHint="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"/>
+
 
 
             <TextView
@@ -172,31 +437,109 @@
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginLeft="10dp"
-                android:layout_marginBottom="200dp"
+                android:layout_marginBottom="10dp"
                 android:gravity="center_vertical|start"
-                android:text="PAL"
                 android:textAllCaps="true"
                 android:textColor="#231e23"
                 android:textSize="18sp"
                 android:textStyle="bold" />
-
-
-        </LinearLayout>
-
+    </LinearLayout>
 
     </LinearLayout>
 
-    <Button
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
 
-        android:layout_marginTop="650dp"
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Go to tarrif calculate >>"
-        android:gravity="center"
-        android:layout_marginLeft="75dp"
-        android:onClick="OnClickTarrif"
-        />
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:layout_marginBottom="20dp"
+                     android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/cif_txt"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Enter cif value"
+                android:textColor="#231e23"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                />
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_marginBottom="20dp"
+                         android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/resultNew"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textColor="#231e23"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="0dp"
+
+                />
+                     </LinearLayout>
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="vertical">
+
+                         <LinearLayout
+                             android:layout_width="match_parent"
+                             android:layout_height="wrap_content"
+                             android:layout_marginBottom="20dp"
+                             android:orientation="horizontal">
+
+            <Button
+
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="0dp"
+                android:background="@drawable/custom_button"
+                android:gravity="center"
+                android:text="Calculate Tarrif"
+                android:textColor="@color/black"
+                app:backgroundTint="@color/teal_200" />
 
 
-</androidx.cardview.widget.CardView>
+        </LinearLayout>
+         </LinearLayout>
+    </LinearLayout>
+         </LinearLayout>
+    </LinearLayout>
+         </LinearLayout>
+    </LinearLayout>
+         </LinearLayout>
+    </LinearLayout>
+         </LinearLayout>
+    </LinearLayout>
+         </LinearLayout>
+    </LinearLayout>
+         </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>

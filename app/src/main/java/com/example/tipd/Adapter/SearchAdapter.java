@@ -105,6 +105,8 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.SearchView
                     intent.putExtra("ridl",pro.getRidl());
                     intent.putExtra("srl",pro.getSrl());
                     intent.putExtra("nbt",pro.getNbt());
+                    intent.putExtra("hsCode",pro.getHsCode());
+
 
                     context.startActivity(intent);
                 }
