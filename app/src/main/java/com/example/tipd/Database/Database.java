@@ -5,6 +5,7 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteQueryBuilder;
 
+import com.example.tipd.DBHelper;
 import com.example.tipd.Model.product;
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
@@ -18,9 +19,12 @@ public class Database extends SQLiteAssetHelper {
     private static final int DB_VER=1;
 
 
+    private Context myContext;
     public Database(Context context) {
         super(context, DB_NAME, null, DB_VER);
+        this.myContext = context;
     }
+    DBHelper dbhelper = new DBHelper(myContext);
 
     //Function get all product
 
@@ -62,7 +66,7 @@ public class Database extends SQLiteAssetHelper {
     //function get all product name
 
     public  List<String> getHsDescription(){
-        SQLiteDatabase db =getReadableDatabase();
+        SQLiteDatabase db =getWritableDatabase();
         SQLiteQueryBuilder qb=new SQLiteQueryBuilder();
 
         String[] sqlSelect={"hsDescription"};
